@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Access-Control-Allow-Origin" content="*">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width,  initial-scale=1" />
+		<title>通讯录</title>
+		<link rel="stylesheet" href="../../Framework/jquery.mobile/jquery.mobile-1.4.0.min.css" />
+		<link rel="stylesheet" href="../../Framework/icon_font/style.css" />
+		<script src="../../Framework/jquery.mobile/jquery.min.js"></script>
+		<script src="../../Framework/jquery.mobile/jquery.mobile-1.4.0.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="../../Framework/plugin.apis/cordova.js"> </script>
+		<script src="../../Framework/common/js/public.js" charset="gb2312"></script>
+		<script type="text/javascript" src="js/txl.js"></script>
+</head>
+<body>
+	<div data-role="page">
+		<div data-role="header" data-position="fixed" data-tap-toggle="false" style="background-color: white;" >
+		<table
+			style="width: 100%; border-radius: 8px; background-color: white;">
+			<tr style="width: 100%;">
+				<td style="width: 90%"><input type="text" name="search" id="search" value="" /></td>
+				<td style="text-align: center;" onclick="Search()"><span
+					style="font-size: 24px; color: black;" class="icon-search"></span></td>
+			</tr>
+		</table>
+		</div>
+		<div  id="list" style="font-size: 14px; background-color: white;">
+		</div>
+	
+	</div>
+</body>
+</html>

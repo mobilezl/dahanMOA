@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html manifest="news.appcache">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width,  initial-scale=1" />
+<title>通知详情</title>
+<link rel="stylesheet"
+	href="../../../Framework/jquery/jquery.mobile-1.3.2.min.css" />
+<script src="../../../Framework/jquery/jquery.min.js"></script>
+<script src="../../../Framework/jquery/jquery.mobile-1.3.2.min.js"></script>
+
+<script type="text/javascript" charset="utf-8" src="../../../Framework/plugin.apis/cordova.js"> </script>    
+<script src="../../../Framework/common/js/public.js"></script>
+<script src="../js/tzggDetail.js" charset="gb2312"></script>
+<style type="text/css">
+body {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-size: 14px;
+	-webkit-user-select: none;
+	-webkit-text-size-adjust: none;
+	font-family: helvetica;
+	-webkit-backface-visibility: hidden; /* for 闪屏 */
+}
+</style>
+</head>
+<body>
+	<div data-role="page"> 
+		<div  data-role="content" data-theme="c" >
+		<div id="list"></div>
+		<div >
+		<br><br>
+		<ul  data-role="listview" data-icon="false" style="font-size: 12px;" data-mini="true">
+	<span style="padding-left: 10px;"><b style="font-size: 16px;">附件</b>   </span><span style="color: #666;">点击预览</span>
+					<li onclick="openFile('http://dahanis.eicp.net:25084/file/APKinfo.pptx');"><a><img  width='75' height='78' src="../images/icon_ppt.png">APK防反编译技术.pptx</a></li>
+					<li onclick="openFile('http://dahanis.eicp.net:25084/file/MOA.doc');"><a><img  width='75' height='78' src="../images/icon_word.png">MOA.doc</a></li>
+					<li onclick="openFile('http://dahanis.eicp.net:25084/file/mobileOA.xls');"><a><img  width='75' height='78' src="../images/icon_excel.png">移动OA.xls</a></li>
+					<li onclick="openFile('http://dahanis.eicp.net:25084/file/Backbonejs.pdf');"><a><img   width='75' height='78' src="../images/icon_no.png">技术资料文件.pdf</a></li>
+				</ul>
+		
+		</div>
+		</div>
+	</div>
+</body>
+</html>

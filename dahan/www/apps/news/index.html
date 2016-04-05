@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Access-Control-Allow-Origin" content="*">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<title>新闻</title>
+<link rel="stylesheet" href="../../Framework/icon_font/style.css" />
+<link rel="stylesheet"
+	href="../../Framework/jquery.mobile/jquery.mobile-1.4.0.min.css" />
+<script src="../../Framework/jquery.mobile/jquery.min.js"></script>
+<script src="../../Framework/jquery.mobile/jquery.mobile-1.4.0.min.js"></script>
+<script src="../../Framework/common/js/public.js" charset="gb2312"></script>
+<script type="text/javascript" charset="utf-8" src="../../Framework/plugin.apis/cordova.js"></script>
+<script src="js/news.js"></script>
+</head>
+<body>
+	<div data-role="page">
+		<div id="list"></div>
+		<div id="load" style="width: 100%; display: none;" align="center">
+			<div style="width: 80%" align="center">
+				<button
+					style="color: white; background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #009999), color-stop(0.05, #0099cc), color-stop(1, #009999)); background-image: -moz-linear-gradient(top, #009999, #0099cc 5%, #009999); background-image: -o-linear-gradient(top, #009999, #0099cc 5%, #009999);"
+					type="button" onclick="loadMore()">加载更多</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

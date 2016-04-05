@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html manifest="news.appcache">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width,  initial-scale=1" />
+<title>通知详情</title>
+<link rel="stylesheet"
+	href="../../../Framework/jquery.mobile/jquery.mobile-1.4.0.min.css" />
+<script src="../../../Framework/jquery.mobile/jquery.min.js"></script>
+<script src="../../../Framework/jquery.mobile/jquery.mobile-1.4.0.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../../Framework/plugin.apis/cordova.js"> </script>    
+<script src="../../../Framework/common/js/public.js"></script>
+<script src="../js/tzggDetail.js" charset="gb2312"></script>
+<style type="text/css">
+body {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-size: 14px;
+	-webkit-user-select: none;
+	-webkit-text-size-adjust: none;
+	font-family: helvetica;
+	-webkit-backface-visibility: hidden; /* for 闪屏 */
+}
+</style>
+</head>
+<body>
+	<div data-role="page">
+		<div id="list" data-role="content" >
+		</div>
+		<div data-role="navbar" >
+				<ul>
+					<li onclick="openFile('http://dahanis.eicp.net:25084/file/log.txt');"><a>附件一</a></li>
+					<li onclick="openFile('http://dahanis.eicp.net:25084/file/Backbonejs.pdf');"><a>附件二</a></li>
+				</ul>
+			</div>
+	</div>
+</body>
+</html>

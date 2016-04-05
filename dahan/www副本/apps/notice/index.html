@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Access-Control-Allow-Origin" content="*">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- <meta name="viewport" content="width=device-width,initial-scale=1" /> -->
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<title>通知公告</title>
+<link rel="stylesheet"
+	href="../../Framework/jquery.mobile/jquery.mobile-1.4.0.min.css" />
+<script src="../../Framework/jquery.mobile/jquery.min.js"></script>
+<script src="../../Framework/jquery.mobile/jquery.mobile-1.4.0.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../Framework/plugin.apis/cordova.js"> </script>    
+<script src="../../Framework/common/js/public.js"></script>
+<script src="js/tzgg.js"></script>
+<style type="text/css">
+body {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-size: 14px;
+	-webkit-user-select: none;
+	-webkit-text-size-adjust: none;
+	font-family: helvetica;
+	-webkit-backface-visibility: hidden; /* for 闪屏 */
+}
+</style>
+</head>
+<body>
+	<div data-role="page" data-dom-cache="true">
+		<div  data-role="content">
+			<div id="list"></div>
+		</div>
+		<div id="load" style="width: 100%; display: none;" align="center">
+			<div style="width: 80%" align="center">
+				<button
+					style="color: white; background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #009999), color-stop(0.05, #0099cc), color-stop(1, #009999)); background-image: -moz-linear-gradient(top, #009999, #0099cc 5%, #009999); background-image: -o-linear-gradient(top, #009999, #0099cc 5%, #009999);"
+					type="button" onclick="loadMore()">加载更多</button>
+			</div>
+
+		</div>
+	</div>
+</body>
+</html>

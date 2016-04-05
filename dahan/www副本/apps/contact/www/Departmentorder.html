@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width,  initial-scale=1" />
+<title>通讯录</title>
+<link rel="stylesheet" href="../../../Framework/jquery.mobile/jquery.mobile-1.4.0.min.css" />
+<script src="../../../Framework/jquery.mobile/jquery.min.js"></script>
+<script src="../../../Framework/jquery.mobile/jquery.mobile-1.4.0.min.js"></script>
+<link rel="stylesheet" href="../../../Framework/icon_font/style.css" />
+<script type="text/javascript" charset="utf-8" src="../../../Framework/plugin.apis/cordova.js"> </script>
+<script src="../../../Framework/common/js/public.js" charset="gb2312"></script>
+<script type="text/javascript" src="../js/Departmentorder.js"></script>
+</head>
+<body style="font-size: 14px;">
+	<div data-role="page">
+	<div data-role="header" data-position="fixed" data-tap-toggle="false" style="background-color: white;" >
+		<table
+			style="width: 100%; border-radius: 8px; background-color: white;">
+				<tr style="width: 100%;">
+					<td style="width: 90%"><input type="text" name="search"
+						id="search" value="" /></td>
+					<td style="text-align: center;" onclick="Search()"><span
+						style="font-size: 24px; color: black;" class="icon-search"></span></td>
+				</tr>
+			</table>
+		</div>
+		<div id="list"
+			style="font-size: 14px; background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #999966), color-stop(0.05, #CCCC99), color-stop(1, #999966)); background-image: -moz-linear-gradient(top, #999966, #CCCC99 5%, #999966); background-image: -o-linear-gradient(top, #999966, #CCCC99 5%, #999966);">
+		</div>
+<!-- 		<div data-role="footer" class="tabbar" data-position="fixed" data-tap-toggle="false"> -->
+<!-- 		<div data-role="navbar" class="tabbar"> -->
+<!-- 		<ul> -->
+<!-- 			<li><a onclick="openWebViewToInner('常用联系人','','','','contact/www/Collection.html','1');" id="home" data-icon="star">常用联系人</a></li> -->
+<!-- 		</ul> -->
+<!-- 		</div> -->
+<!-- 	</div>	 -->
+	</div>
+</body>
+</html>

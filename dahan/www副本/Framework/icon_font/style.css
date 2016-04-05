@@ -1,0 +1,159 @@
+@font-face {
+	font-family: 'icomoon';
+	src: url('fonts/icomoon.eot');
+	src: url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.woff') format('woff'),
+		url('fonts/icomoon.ttf') format('truetype'),
+		url('fonts/icomoon.svg?m#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"],[class*="icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-warn:before {
+	content: "\e600";
+}
+
+.icon-user-add:before {
+	content: "\e601";
+}
+
+.icon-task:before {
+	content: "\e602";
+}
+
+.icon-send:before {
+	content: "\e603";
+}
+
+.icon-search:before {
+	content: "\e604";
+}
+
+.icon-remove:before {
+	content: "\e605";
+}
+
+.icon-reject:before {
+	content: "\e606";
+}
+
+.icon-new:before {
+	content: "\e607";
+}
+
+.icon-phone:before {
+	content: "\e608";
+}
+
+.icon-multi-selected:before {
+	content: "\e609";
+}
+
+.icon-multi-select:before {
+	content: "\e60a";
+}
+
+.icon-more:before {
+	content: "\e60b";
+}
+
+.icon-message:before {
+	content: "\e60c";
+}
+
+.icon-menu:before {
+	content: "\e60d";
+}
+
+.icon-meeting:before {
+	content: "\e60e";
+}
+
+.icon-ID:before {
+	content: "\e60f";
+}
+
+.icon-fold:before {
+	content: "\e610";
+}
+
+.icon-filter:before {
+	content: "\e611";
+}
+
+.icon-filter-done:before {
+	content: "\e612";
+}
+
+.icon-file:before {
+	content: "\e613";
+}
+
+.icon-fail:before {
+	content: "\e614";
+}
+
+.icon-expand:before {
+	content: "\e615";
+}
+
+.icon-employee:before {
+	content: "\e616";
+}
+
+.icon-email:before {
+	content: "\e617";
+}
+
+.icon-dot:before {
+	content: "\e618";
+}
+
+.icon-comments:before {
+	content: "\e619";
+}
+
+.icon-check:before {
+	content: "\e61a";
+}
+
+.icon-chat:before {
+	content: "\e61b";
+}
+
+.icon-back:before {
+	content: "\e61c";
+}
+
+.icon-arrow-up:before {
+	content: "\e61d";
+}
+
+.icon-arrow-right:before {
+	content: "\e61e";
+}
+
+.icon-arrow-down:before {
+	content: "\e61f";
+}
+
+.icon-alert:before {
+	content: "\e620";
+}
+
+.icon-add:before {
+	content: "\e621";
+}
